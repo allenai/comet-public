@@ -34,13 +34,6 @@ pip install ipython
 
 <h1> Installing the Package </h1>
 
-Run the following command:
-
-```
-git checkout package
-pip install .
-```
-
 You should now be able to use most COMeT functionality!
 
 <h1> Launching a demo </h1>
