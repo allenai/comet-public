@@ -1,5 +1,5 @@
 import json
-from utils import DD
+from comet.utils import DD
 
 device = "cuda"
 

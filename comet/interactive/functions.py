@@ -3,13 +3,13 @@ import sys
 import os
 import time
 
-from data.utils import TextEncoder
-import data.config as cfg
-import data.data as data
-import models.models as models
-from evaluate.sampler import BeamSampler, GreedySampler, TopKSampler
+from comet.data.utils import TextEncoder
+import comet.data.config as cfg
+import comet.data.data as data
+import comet.models.models as models
+from comet.evaluate.sampler import BeamSampler, GreedySampler, TopKSampler
 
-import utils as utils
+import comet.utils as utils
 
 
 def set_compute_mode(mode):

@@ -1,9 +1,9 @@
 import time
 import numpy as np
 
-import train.batch as batch_utils
-import utils as utils
-import evaluate.evaluate as base_evaluate
+import comet.train.batch as batch_utils
+import comet.utils as utils
+import comet.evaluate.evaluate as base_evaluate
 
 
 def make_evaluator(opt, *args, **kwargs):

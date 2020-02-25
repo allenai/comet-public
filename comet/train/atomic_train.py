@@ -1,9 +1,9 @@
 import random
 
-import train.train as base_train
-import train.batch as batch
-import evaluate.atomic_evaluate as evaluate
-# import evaluate.atomic_generate as gen
+import comet.train.train as base_train
+import comet.train.batch as batch
+import comet.evaluate.atomic_evaluate as evaluate
+# import comet.evaluate.atomic_generate as gen
 
 
 def make_trainer(opt, *args):

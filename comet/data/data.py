@@ -1,9 +1,9 @@
 import os
-import data.atomic as atomic_data
-import data.conceptnet as conceptnet_data
-import data.config as cfg
+import comet.data.atomic as atomic_data
+import comet.data.conceptnet as conceptnet_data
+import comet.data.config as cfg
 
-import utils as utils
+import comet.utils as utils
 
 import pickle
 import torch

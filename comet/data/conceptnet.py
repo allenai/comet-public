@@ -1,6 +1,6 @@
-import data.utils as data_utils
-import data.atomic as adata
-import data.config as cfg
+import comet.data.utils as data_utils
+import comet.data.atomic as adata
+import comet.data.config as cfg
 
 import torch
 import random

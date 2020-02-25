@@ -1,12 +1,12 @@
 import random
 import torch
 
-import data.config as cfg
+import comet.data.config as cfg
 
-import train.atomic_train as base_train
-import train.batch as batch_utils
-import evaluate.conceptnet_evaluate as evaluate
-import evaluate.conceptnet_generate as gen
+import comet.train.atomic_train as base_train
+import comet.train.batch as batch_utils
+import comet.evaluate.conceptnet_evaluate as evaluate
+import comet.evaluate.conceptnet_generate as gen
 
 
 def make_trainer(opt, *args):

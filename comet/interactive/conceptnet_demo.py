@@ -2,7 +2,7 @@ import sys
 import os
 import argparse
 
-import interactive.functions as interactive
+import comet.interactive.functions as interactive
 
 sampling_mapping = {
     "b10": "beam-10",

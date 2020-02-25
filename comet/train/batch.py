@@ -5,11 +5,11 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-import data.config as cfg
-import train.utils as train_utils
-import models.utils as model_utils
-import evaluate.utils as eval_utils
-import utils as utils
+import comet.data.config as cfg
+import comet.train.utils as train_utils
+import comet.models.utils as model_utils
+import comet.evaluate.utils as eval_utils
+import comet.utils as utils
 from IPython import embed
 
 

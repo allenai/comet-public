@@ -2,11 +2,11 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-import data.data as data
-import data.config as cfg
-import models.utils as model_utils
-import evaluate.utils as eval_utils
-import train.batch as batch_utils
+import comet.data.data as data
+import comet.data.config as cfg
+import comet.models.utils as model_utils
+import comet.evaluate.utils as eval_utils
+import comet.train.batch as batch_utils
 
 def make_sampler(sampler_type, opt, *args, **kwargs):
     print("Initializing Greedy Sampler")

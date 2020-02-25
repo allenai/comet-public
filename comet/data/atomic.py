@@ -1,6 +1,6 @@
-import utils as utils
-import data.utils as data_utils
-import data.config as cfg
+import comet.utils as utils
+import comet.data.utils as data_utils
+import comet.data.config as cfg
 
 import pandas
 import json

@@ -1,6 +1,6 @@
-import data.data as data
-import data.config as cfg
-import evaluate.sampler as sampling
+import comet.data.data as data
+import comet.data.config as cfg
+import comet.evaluate.sampler as sampling
 
 
 def do_gen_run(opt, generator, l, split="dev", scores={}):

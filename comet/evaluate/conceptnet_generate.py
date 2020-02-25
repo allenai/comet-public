@@ -1,10 +1,10 @@
 import time
 import torch
 
-import evaluate.generate as base_generate
-import evaluate.sampler as sampling
-import utils as utils
-import data.config as cfg
+import comet.evaluate.generate as base_generate
+import comet.evaluate.sampler as sampling
+import comet.utils as utils
+import comet.data.config as cfg
 
 
 def make_generator(opt, *args):

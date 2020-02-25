@@ -1,8 +1,8 @@
 import time
 import torch
 
-import utils as utils
-import data.config as cfg
+import comet.utils as utils
+import comet.data.config as cfg
 
 
 class Evaluator(object):

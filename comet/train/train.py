@@ -2,16 +2,16 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-import data.config as cfg
-import data.data as data
-import train.utils as train_utils
-import train.batch as batch
+import comet.data.config as cfg
+import comet.data.data as data
+import comet.train.utils as train_utils
+import comet.train.batch as batch
 
-import evaluate.evaluate as evaluate
-import evaluate.generate as gen
-import evaluate.sampler as sampling
+import comet.evaluate.evaluate as evaluate
+import comet.evaluate.generate as gen
+import comet.evaluate.sampler as sampling
 
-import utils as utils
+import comet.utils as utils
 
 from tensorboardX import SummaryWriter
 

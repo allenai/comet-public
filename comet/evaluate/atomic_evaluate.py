@@ -1,5 +1,5 @@
-import train.batch as batch
-import evaluate.evaluate as base_evaluate
+import comet.train.batch as batch
+import comet.evaluate.evaluate as base_evaluate
 import numpy as np
 
 def make_evaluator(opt, *args):

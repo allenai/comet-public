@@ -2,7 +2,7 @@ import sys
 import os
 import argparse
 
-import interactive.functions as interactive
+import comet.interactive.functions as interactive
 
 descriptions = {
     "oEffect": "The effect of the event on participants besides PersonX might be: ",
