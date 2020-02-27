@@ -15,21 +15,13 @@ Then run the setup scripts to acquire the pretrained model files from OpenAI, as
 ```
 bash scripts/setup/get_atomic_data.sh
 bash scripts/setup/get_conceptnet_data.sh
-bash scripts/setup/get_model_files.sh
 ```
 
 Then install dependencies (assuming you already have Python 3.6 and Pytorch >= 1.0:
 
 ```
-pip install torch==1.0
-pip install tensorflow
-pip install ftfy==5.1
-conda install -c conda-forge spacy
+pip install -r requirements.txt
 python -m spacy download en
-pip install tensorboardX
-pip install tqdm
-pip install pandas
-pip install ipython
 ```
 
 <h1> Installing the Package </h1>
@@ -41,14 +33,10 @@ You should now be able to use most COMeT functionality!
 First, download the pretrained models from the following link:
 
 ```
-https://drive.google.com/open?id=17TYbeEGgKslFzmfe-TRFKBWiH5F0CSm1
+wget https://storage.googleapis.com/ai2-mosaic/public/comet/models.zip
+unzip models.zip
 ```
 
-Then untar the file:
-
-```
-tar -xvzf pretrained_models.tar.gz
-```
 
 Then to launch the demo, do the following:
 
