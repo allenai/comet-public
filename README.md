@@ -6,7 +6,7 @@ To run a generation experiment (either conceptnet or atomic), follow these instr
 First clone, the repo:
 
 ```
-git clone https://github.com/atcbosselut/comet.git
+git clone https://github.com/allenai/comet-public.git
 cd comet
 ```
 
