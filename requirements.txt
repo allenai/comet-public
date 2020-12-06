@@ -1,4 +1,4 @@
-torch==1.0
+torch
 tensorflow
 ftfy==5.1
 spacy
